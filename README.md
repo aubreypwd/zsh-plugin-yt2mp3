@@ -1,6 +1,6 @@
-# `ty2`
+# `yt2mp3`
 
-Simple description of your plugin.
+Feunction to download a YouTube video as an mp3.
 
 ## Usage
 
