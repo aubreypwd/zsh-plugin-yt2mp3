@@ -1,9 +1,8 @@
 #!/bin/zsh
 
-antigen bundle aubreypwd/zsh-plugin-require
-antigen apply
-
-require "youtube-dl" "brew reinstall youtube-dl"
+if [[ -x $(command -v brew) ]] && [[ ! -x $(command -v youtube-dl) ]]; then
+	brew reinstall youtube-dl
+fi
 
 if ! [[ -x $(command -v youtube-dl) ]]; then
 	echo "Please install youtube-dl:";

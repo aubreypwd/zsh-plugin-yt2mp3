@@ -1,18 +1,25 @@
-# My Plugin
+# `ty2`
 
 Simple description of your plugin.
 
 ## Usage
 
 ```bash
+yt2mp3 <url>
 ```
+
+## Requires
+
+- `youtube-dl`<sup>*</sup>
+
+<sup>*</sup>If using [homebrew](https://brew.sh) on macOS, these will automatically be installed.
 
 ## Install
 
 Using [antigen](https://github.com/zsh-users/antigen):
 
 ```bash
-antigen bundle github-username/my-plugin@1.0.0
+antigen bundle aubreypwd/zsh-plugin-yt2mp3@1.0.0
 ```
 
 ## Development
@@ -20,10 +27,10 @@ antigen bundle github-username/my-plugin@1.0.0
 Install the package on `master`:
 
 ```bash
-antigen bundle github-username/my-plugin
+antigen bundle aubreypwd/zsh-plugin-yt2mp3
 ```
 
-...and contribute upstream by working in `$HOME/.antigen/bundles/github-username/plugin-slug`.
+...and contribute upstream by working in `$HOME/.antigen/bundles/aubreypwd/yt2mp3`.
 
 ---
 
@@ -32,12 +39,3 @@ antigen bundle github-username/my-plugin
 ### 1.0.0
 
 - First version
-
----
-
-## Delete Me
-
-# - [ ] Rename `plugin-slug.plugin.zsh` to match your repo, e.g. `aubreypwd/my-plugin` becomes `my-plugin.plugin.zsh`
-# - [ ] Re-write `README.md` and replace `plugin-slug` with your repo name and `github-username` with your Github username
-
-That's it!
