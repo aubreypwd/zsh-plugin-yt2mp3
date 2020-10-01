@@ -10,9 +10,9 @@ yt2mp3 <url>
 
 ## Requires
 
-- <sup>*</sup>`youtube-dl`
+- `youtube-dl` <sup>*</sup>
 
-<sup>*</sup>If using [homebrew](https://brew.sh) on macOS, these will automatically be installed.
+<sup>*</sup> If using [homebrew](https://brew.sh) on macOS, these will automatically be installed.
 
 ## Install
 
