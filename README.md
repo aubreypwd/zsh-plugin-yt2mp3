@@ -1,6 +1,6 @@
 # `yt2mp3`
 
-Feunction to download a YouTube video as an mp3.
+Function to download a YouTube video as an mp3.
 
 ## Usage
 
