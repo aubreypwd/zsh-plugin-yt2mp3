@@ -27,7 +27,7 @@ antigen bundle aubreypwd/zsh-plugin-yt2mp3@1.0.0
 Install the package on `master`:
 
 ```bash
-antigen bundle aubreypwd/zsh-plugin-yt2mp3
+antigen bundle ssh://git@github.com/aubreypwd/zsh-plugin-yt2mp3
 ```
 
 ...and contribute upstream by working in `$HOME/.antigen/bundles/aubreypwd/yt2mp3`.
